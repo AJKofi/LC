@@ -1,0 +1,35 @@
+print("Hello welcome to love calculator")
+name1=input("what is your name? ")
+name2=input("what is your partners/crush name? ")
+lower_case_name=name1.lower()
+a=lower_case_name.count("t")
+b=lower_case_name.count("r")
+c=lower_case_name.count("u")
+d=lower_case_name.count("e")
+a1=lower_case_name.count("l")
+b1=lower_case_name.count("o")
+c1=lower_case_name.count("v")
+d1=lower_case_name.count("e")
+lower_case_name2=name2.lower()
+f=lower_case_name2.count("t")
+g=lower_case_name2.count("r")
+h=lower_case_name2.count("u")
+i=lower_case_name2.count("e")
+f1=lower_case_name2.count("l")
+g1=lower_case_name2.count("o")
+h1=lower_case_name2.count("v")
+i1=lower_case_name2.count("e")
+total_true=a+b+c+d+f+g+h+i
+#print(total_true)
+total_love=a1+b1+c1+d1+f1+g1+h1+i1
+#print(total_true)
+love_score=(str(total_true) + str(total_love))
+#print(f"your love score is {love_score}% ")
+
+x =int(love_score)
+if x<10 and x>90 :
+    print(f"your score is {x}% you go together like coke and mentos.")
+elif x>=40 and x<=50:
+    print(f"your score is {x}% you are alright.")
+else:
+    print(f"your score is {x}% .")
